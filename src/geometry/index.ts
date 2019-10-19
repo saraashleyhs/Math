@@ -1,3 +1,8 @@
-import * as circle from './circle/index';
+import { circle } from './circle';
 
-export { circle };
+export const geometry = {
+  /**
+   * Geometric operations on circles.
+   */
+  circle
+};

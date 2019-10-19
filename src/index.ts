@@ -1,3 +1,8 @@
-import * as geometry from './geometry';
+import { geometry } from './geometry';
 
-export default { geometry };
+export const Mathematics = {
+  /**
+   * Geometric operations and functions.
+   */
+  geometry
+};
