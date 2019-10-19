@@ -1,5 +1,9 @@
 export const algebra = {
-    subtract(a:number, b:number){
-        return a - b;
-    }
+  slope,
+  subtract(a:number, b:number): number {
+      return a - b;
+  },
+  add(a: number, b: number): number {
+    return a + b;
+  }
 };
